@@ -1,0 +1,94 @@
+{
+  "tasks": [
+    {
+      "name": "ProximityCheck",
+      "priority": 4,
+      "period_ms": 400,
+      "sensors": ["ultrasonic"]
+    },
+    {
+      "name": "MotionTrack",
+      "priority": 5,
+      "period_ms": 100,
+      "sensors": ["mpu6050"]
+    },
+    {
+      "name": "ObstacleAvoid",
+      "priority": 6,
+      "period_ms": 150,
+      "sensors": ["ultrasonic"]
+    },
+    {
+      "name": "StabilityMonitor",
+      "priority": 5,
+      "period_ms": 200,
+      "sensors": ["mpu6050"]
+    },
+    {
+      "name": "SurfaceMapping",
+      "priority": 6,
+      "period_ms": 300,
+      "sensors": ["ultrasonic"]
+    },
+    {
+      "name": "BalanceControl",
+      "priority": 7,
+      "period_ms": 100,
+      "sensors": ["mpu6050"]
+    },
+    {
+      "name": "CollisionAlert",
+      "priority": 6,
+      "period_ms": 250,
+      "sensors": ["ultrasonic"]
+    },
+    {
+      "name": "OrientationUpdate",
+      "priority": 5,
+      "period_ms": 120,
+      "sensors": ["mpu6050"]
+    },
+    {
+      "name": "DistanceAverager",
+      "priority": 4,
+      "period_ms": 500,
+      "sensors": ["ultrasonic"]
+    },
+    {
+      "name": "VibrationDetect",
+      "priority": 5,
+      "period_ms": 100,
+      "sensors": ["mpu6050"]
+    },
+    {
+      "name": "RangeFusion",
+      "priority": 6,
+      "period_ms": 200,
+      "sensors": ["ultrasonic", "mpu6050"]
+    },
+    {
+      "name": "PathPredict",
+      "priority": 6,
+      "period_ms": 300,
+      "sensors": ["mpu6050", "ultrasonic"]
+    },
+    {
+      "name": "DynamicResponse",
+      "priority": 7,
+      "period_ms": 150,
+      "sensors": ["mpu6050"]
+    },
+    {
+      "name": "ObjectTracking",
+      "priority": 5,
+      "period_ms": 250,
+      "sensors": ["ultrasonic"]
+    },
+    {
+      "name": "SensorFusionTask",
+      "priority": 6,
+      "period_ms": 200,
+      "sensors": ["ultrasonic", "mpu6050"]
+    }
+  ]
+}

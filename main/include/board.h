@@ -1,0 +1,7 @@
+#define ULTRASONIC_TRIG_PIN 32
+#define ULTRASONIC_ECHO_PIN 35
+#define MPU_SDA_PIN 22
+#define MPU_SCL_PIN 23
+#define DHT_DATA_PIN GPIO_NUM_13
+#define DHT_SENSOR_TYPE DHT_TYPE_DHT11
+#define baudrate_uart 115200
